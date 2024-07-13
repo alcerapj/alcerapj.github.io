@@ -1,0 +1,33 @@
+
+  .back-button {
+    background-color: #ff7300; /* Adjust background color as desired */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow for inline styling */
+  }
+  
+  .back-button:hover { /* Button hover effect */
+    background-color: #8b3f00;
+  }
+  .next-button {
+  background-color: #2ecc71; /* Adjust background color as desired */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Allow for inline styling */
+  margin-left: 10px; /* Add spacing between buttons */
+  float: right;
+}
+
+.next-button:hover { /* Button hover effect */
+  background-color: #27ae60;
+}
